@@ -1,0 +1,71 @@
+div,
+input,
+button {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 90%;
+  margin: 10px auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+}
+.todo-form {
+  max-width: 60%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  width: 70%;
+  height: 30px;
+  border: none;
+  padding: 10px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.btn-save {
+  height: 30px;
+  border: none;
+  padding: 0 10px;
+  background-color: rgb(120, 140, 160);
+  color: rgb(252, 252, 252);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+
+.item-todo {
+  max-width: 60%;
+  margin: 5px auto;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(120, 140, 160);
+  border-radius: 6px;
+}
+.item-text{
+  padding: 0 10px;
+  color: rgb(252, 252, 252);
+
+}
+.item-delete {
+  height: 20px;
+  padding: 0 10px;
+  font-weight: 600;
+  color: rgb(252, 161, 161);
+  cursor: pointer;
+}
+.strike{
+  text-decoration: line-through;
+}
+
